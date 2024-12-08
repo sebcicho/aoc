@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6", // or a later version
+    "target": "ES2015", // or a later version
     "module": "commonjs", // or "esnext" if you're using ES modules
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
   }
 }

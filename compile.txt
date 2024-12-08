@@ -1,0 +1,2 @@
+tsc .\t4.ts
+node .\t4.js
